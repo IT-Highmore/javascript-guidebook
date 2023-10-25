@@ -110,7 +110,7 @@ Function.prototype.call = function (context) {
 
 ```js
 fn.call(ctx, arg1, arg2, arg3);
-fn.call(ctx, [arg1, arg2, arg3]);
+fn.apply(ctx, [arg1, arg2, arg3]);
 ```
 
 - `call` 调用函数的参数是散列的形式
